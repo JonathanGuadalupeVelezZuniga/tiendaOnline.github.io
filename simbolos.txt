@@ -1,5 +1,0 @@
- ''                         Comillas simples
- ""                         Comillas dobles 
- < >                        Mayor que y menor que 
- ``                         Comillas ladeadas
-    
