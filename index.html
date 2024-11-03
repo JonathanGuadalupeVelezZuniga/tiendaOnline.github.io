@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Buscaminas</h1>
+    <div id="setup">
+        <label for="rows">Renglones:</label>
+        <input type="number" id="rows" min="5" value="5">
+        
+        <label for="cols">Columnas:</label>
+        <input type="number" id="cols" min="5" value="5">
+        
+        <label for="mines">Minas:</label>
+        <input type="number" id="mines" min="1" value="5">
+        
+        <button onclick="startGame()">Iniciar Juego</button>
+        
+        <h2>Selecciona un nivel de dificultad:</h2>
+        <button onclick="setDifficulty('facil')">Fácil</button>
+        <button onclick="setDifficulty('medio')">Medio</button>
+        <button onclick="setDifficulty('dificil')">Difícil</button>
+    </div>
+    <div id="game"></div>
+    <script src="js/index.js"></script>
+</body>
+</html>
